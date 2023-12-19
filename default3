@@ -2,7 +2,8 @@
 upstream backend {
                 server 127.0.0.1:89;
                 server 127.0.0.1:90;
-                server 127.0.0.1:91;
+                server 127.0.0.1:91
+                server 127.0.0.1:92;
        }
 
 server {
